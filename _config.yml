@@ -1,0 +1,39 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: Kristi Progri
+description: "My personal website"
+keywords: "blog,kristi,web"
+
+# Site settings
+url: https://kristiprogri.com
+baseurl: ""
+
+# Author settings
+author:
+  name      : Kristi Progri
+  job       :  
+  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  thumb     : /images/author.jpg
+  email     : kristi@kristiprogri.com
+  url       : https://kristiprogri.com
+  github    : https://github.com/kristiprogri
+  twitter   : https://twitter.com/KristiProgri
+  facebook  : https://facebook.com/kristiprogri94
+  linkedin  : 
