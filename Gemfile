@@ -3,10 +3,10 @@
 source 'https://rubygems.org'
 
 group :development do
-  gem 'rake', '~> 10.4.2'
-  gem 'sass', '~> 3.5.2'
-  gem 'jekyll', '~> 3.8.5'
-  gem 'travis', '~> 1.8'
-  gem 'pygments.rb', '~> 1.2.0'
-  gem 'colorator', '~> 1.1.0'
+  gem 'rake'
+  gem 'sass'
+  gem 'jekyll'
+  gem 'travis'
+  gem 'pygments.rb'
+  gem 'colorator'
 end
